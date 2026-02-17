@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.test
+*.out
+vendor/
+
+# Data files (keep small samples, ignore large generated data)
+*.csv
+*.parquet
+!data/sample_*.csv
+!data/sample_*.parquet
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Environment
+.env
+.env.local
